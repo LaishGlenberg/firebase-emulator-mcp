@@ -1,0 +1,48 @@
+{
+  "name": "@lglen/firebase-emulator-mcp",
+  "version": "1.0.2",
+  "description": "MCP server that exposes Firebase emulator data (Firestore, Auth, RTDB) to AI agents over stdio",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "firebase-emulator-mcp": "lib/index.js"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "start": "node lib/index.js",
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "firebase",
+    "emulator",
+    "mcp",
+    "modelcontextprotocol",
+    "ai",
+    "claude",
+    "copilot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaultnel/firebase-emulator-mcp.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "typescript": "^6.0.3"
+  }
+}
