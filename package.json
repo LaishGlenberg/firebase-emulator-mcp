@@ -1,6 +1,6 @@
 {
   "name": "@lglen/firebase-emulator-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server that exposes Firebase emulator data (Firestore, Auth, RTDB) to AI agents over stdio",
   "type": "module",
   "main": "lib/index.js",
