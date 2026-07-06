@@ -1,4 +1,5 @@
 # Firebase Emulator MCP Server
+[![GitHub](https://img.shields.io/badge/GitHub-firebase--emulator--mcp-181717?&logo=github)](https://github.com/LaishGlenberg)
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that exposes Firebase
 emulator data — Firestore, Auth, Logs, and Realtime Database — to AI agents over stdio.
@@ -6,7 +7,7 @@ emulator data — Firestore, Auth, Logs, and Realtime Database — to AI agents 
 Designed for local development workflows where AI coding assistants (Claude Code, GitHub
 Copilot, etc.) need to inspect emulator state without leaving the editor.
 
-Created by [Laish Glenberg](https://www.linkedin.com/in/laish-glenberg/) (@lglen)
+Created by [Laish Glenberg](https://www.linkedin.com/in/laish-glenberg/), please drop a star on the repo if this package helped you!
 
 ---
 
